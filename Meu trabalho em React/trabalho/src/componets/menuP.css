@@ -1,0 +1,74 @@
+#menu{
+    
+    height: 80px;
+
+    width: 100%;
+    background-color: #F3E2A9;
+
+}
+.men{
+    padding: 5px 30px 5px 10px;
+    width: 750px;
+      float: left;
+    display: block;
+    border: 2px red solid;
+
+   
+}
+
+.men li{
+ 
+    background-color: white;
+    float: left;
+    display: block;
+    padding: 20px;
+    border-radius: 50px ;  
+    margin: 2px;
+    height: 20px;
+    line-height: 20px;
+    
+}
+.men a:hover{
+    
+   color: yellow;
+}
+.men a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 22px;
+
+}
+.cad{
+    width: 180px;
+    height: 100px;
+   
+    float: left;
+    padding: 0 15px 0 0;
+    font-size: 5px;
+}
+#cadt{
+    width: 1245px;
+    height: 400px;
+  
+    padding: 40px  ;
+    font-size: 10px;
+
+
+
+    background-color: black;
+    border: 10px  solid #F7D358;
+    border-radius: 50px;
+    opacity: 60%;
+ color: aliceblue;
+
+}
+.tex h1 {
+   
+    line-height: 80px;
+    font-size: 45px;
+      padding: 0 45px 0 25px;
+    color: blue;
+     float: left;
+    width: 475px;
+    
+}

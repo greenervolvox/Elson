@@ -1,0 +1,36 @@
+#liv{
+    
+   
+width: 100%;
+
+height: 700px;
+
+}
+.lista{
+    text-align: center;
+
+    float: left;
+    border: 3px red solid ;
+    width: 300px;
+    margin: 6px;
+    padding: 5px;
+    
+
+}
+.lista p{
+    text-align: center;
+color: aqua;
+    float: left;
+    border: 3px red solid ;
+    width: 273px;
+    margin: 6px;
+    padding: 5px;
+    
+
+}
+ .titliv{
+
+    text-align: center;
+   
+    color: rgb(244, 242, 245);
+ }
