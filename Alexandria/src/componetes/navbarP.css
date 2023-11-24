@@ -1,0 +1,66 @@
+nav{
+    border: 2px red solid;
+    width: 100%;
+    margin: 1px;
+    height: 200px;
+    background-color: rgb(67, 6, 102);
+    
+ 
+}
+
+.men{
+
+    float: left;
+    width: 500px;
+    height: 400px;
+    
+    float: left;
+    display: block;
+  
+    border: 2px rgb(27, 2, 2) solid;
+ 
+   
+   
+}
+
+.men, li{
+ 
+    background-color: white;
+    float: left;
+    display: block;
+    padding: 20px;
+    border-radius: 50px ;  
+    margin: 2px;
+    height: 20px;
+    line-height: 20px;
+    
+}
+.men, a:hover{
+    
+   color: yellow;
+}
+.men, a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 22px;
+
+}
+.tex {
+    float: left;
+    width: 500px;
+    height: 40px;
+}
+
+
+.tex, h1{
+
+ 
+    border: 2px red solid;
+    line-height: 80px;
+    font-size: 45px;
+    padding: 0 45px 0 25px;
+    color: rgb(235, 235, 240);
+   
+
+    
+}

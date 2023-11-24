@@ -1,0 +1,304 @@
+/*#######################################################################################
+Body
+*/
+*{
+    box-sizing: border-box;
+}
+
+
+
+body {
+ 
+    background-repeat: no-repeat, repeat;
+    background-size: 2590px;
+    min-width: 1330px;
+    background-color: yellow;
+    
+    background-image: url(/public/fundo.jpg );
+  }
+   h1{
+    color: #333;
+   }
+   p{
+    background-color: #180303;
+    padding: 10px;
+    
+   }
+
+
+
+   /*#######################################################################################
+menu
+*/
+
+/*MENU*/
+  .men{
+      float:right;
+      height: 100px;
+      width: 690px;
+      margin: 10px;
+      float: left;
+      
+   }
+  
+  .men li{
+   
+      background-color: rgb(187, 106, 106);
+      float: left;
+      display: block;
+      border: 3px rgb(187, 218, 116) solid;
+      padding: 15px;
+      border-radius: 50px ;  
+      margin: 5px;
+      height: 35px;
+      line-height: 1px;
+      color: #180303;
+      width: 150px;
+      text-align: center;
+
+  }
+  .men a:hover{
+      font-size: 25px;
+     color: yellow;
+  }
+  .men a{
+    width: 50px;
+      text-decoration: none;
+      font-size: 20px;
+      margin: 22px;
+  
+  }
+
+  /*#######################################################################################
+CADSTRDO
+*/
+  .cad{
+      width: 180px;
+      height: 100px;
+     
+      float: left;
+      padding: 0 15px 0 0;
+      font-size: 5px;
+  }
+  #cadt{
+      width: 1245px;
+      height: 400px;
+    
+      padding: 40px  ;
+      font-size: 10px;
+  
+  
+  
+      background-color: black;
+      border: 10px  solid #F7D358;
+      border-radius: 50px;
+      opacity: 60%;
+   color: aliceblue;
+  
+  }
+/*LOGO*/
+  .tex {
+   
+    float: left;
+    width: 500px;
+    height: 40px;
+}
+
+  .tex h1 {
+      
+      line-height: 80px;
+      font-size: 45px;
+      margin: 10px;
+      color: rgb(222, 222, 235);
+       float: left;
+      width: 575px;
+      
+  }
+  nav{
+    
+    width: 100%;
+    margin: 1px;
+    height: 100px;
+    background-color: rgb(67, 6, 102);
+    
+ 
+}
+
+/*#######################################################################################
+Home
+*/
+   
+#cood{
+  background-color: rgb(14, 13, 13);
+  border: 10px  solid #F7D358;
+  border-radius: 40px;
+  opacity: 90%;
+  width: 100%;
+  height: 700px;
+} 
+
+.cad{
+
+
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  float: left;
+  margin: 20px;
+  width: 420px;
+  background-color: rgb(20, 107, 107);
+  height: 645px;
+
+}
+.int{
+  padding: 20px;
+  border-radius: 20px;
+  float: left;
+  margin: 20px;
+  width:800px;
+  background-color: aqua;
+
+}
+
+.forl{
+  width: 390px;
+  height: 40px;
+text-align: center;
+  border-radius: 50px;
+}
+
+.logar{
+  background-color:rgb(68, 187, 31);
+  width: 400px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+img{
+  border-radius: 10px;
+}
+
+
+/*#######################################################################################
+Cadastro
+*/
+
+#cadi{
+  background-color: rgb(233, 226, 240);
+  text-align: center;
+  margin: 3px;
+
+}
+.tab{
+  padding: 1px 2px 3px 480px;
+  text-align: center;
+
+  width: auto;
+  
+}
+.add  {
+  background-color: rgb(13, 192, 13) ;
+  margin: 0 0 0 430px;
+  width: 490px;
+height: 40px;
+ text-align: center;
+border-radius: 50px;
+}
+.addl  {
+  background-color: brown;
+  margin: 0 0 0 430px;
+  width: 490px;
+height: 40px;
+ text-align: center;
+border-radius: 50px;
+}
+input{ 
+  width: 99%;
+height: 30px;
+}
+.for{
+  width: 390px;
+  height: 40px;
+
+  border-radius: 50px;
+}
+.clik{
+  display: inline;
+  padding: 10px;
+  text-align: center;
+
+  width: auto;
+
+}
+
+
+
+/*#######################################################################################
+Conteudo / livros
+*/
+ #cool{
+  background-color: rgb(14, 13, 13);
+  border: 10px  solid #F7D358;
+  border-radius: 40px;
+  opacity: 90%;
+  width: 100%;
+  height: 850px;
+ }
+
+  .la{
+    
+
+     float: left;
+    
+   
+    margin:  10px 0 0 36px;
+
+
+
+  }
+
+  .la img{
+    width: 125px;
+    height: 155px;
+    text-align: center;
+    
+    border: 3px red solid ;
+    margin:  20px  10px 0 10px;
+    padding: 5px;
+
+  }
+  .la p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 10px;
+    width: 100px;
+    margin:  0 1px 0 20px;
+    padding: 5px;
+    height: 22px;
+    
+    border-radius: 40px;
+    color: aqua;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+   
+  }
+  .la p:hover{
+    color: rgb(5, 41, 41);
+background-color: #F7D358;
+  }
+
+/*#######################################################################################
+rodape
+*/
+
+#rod{
+  background-color: #333;
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  line-height: 30px;
+} 
+
+    
+    
